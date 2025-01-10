@@ -4,6 +4,19 @@
 <body bgcolor="#3b0202">
 <pre>
 
+
+  table {
+  display: inline-block;
+}
+#one {
+  width: 385px;
+}
+#two {
+  width: -webkit-calc(100% - 390px);
+  width: calc(390% - 405px);
+}
+
+  
 <table align=center width=1250 height = 230 bgcolor="#080808">
   <tr>
      <td width=30></td>
@@ -12,7 +25,7 @@
   </tr>
 
 
-  <table style="float: left"  height=700 cellspacing="0" cellpadding="0" >
+  <table style="float: left"  height=700 cellspacing="0" cellpadding="0" id="one">
 <br>
 
  <tr>
@@ -91,7 +104,7 @@
 <td width=10 ></td>
 </tr>
 
-</table>    <table   display: inline-block; border="0" bordercolor="white" cellspacing="0" bgcolor="#5e1b24" cellpadding="5">
+</table>    <table   display: inline-block; border="0" bordercolor="white" cellspacing="0" bgcolor="#5e1b24" cellpadding="5"  id="two">
 
   <tr height=10>
     <td colspan="5" bgcolor="#080808"></td>
